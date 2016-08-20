@@ -1,0 +1,10 @@
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/classes/debug
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/support-annotations-24.1.1-a841847f8001140eb26aefaea6d9067c437629f5.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-700be9da99f0929f79d74ed2afb2cc5fed576b5b.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-624e88f159cd31c0de23fdfa77b613c66f24a3ef.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-ff9e8f28e8378d5aeb6d11f16c851695e333c5a4.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-62ce4056377734841bf51ea0d1e5055d0b04a884.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/internal_impl-24.1.1-39bd26593d4cd223964d89dd9d49654523197825.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-2f5ce185f5aa22c4512ab62ce5b0d3a1530c2b14.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-012cbfec800937fa6120dc78837f246bc73c1a01.jar
+/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-e0fcdaed1a490f3e450ebd8559d9656b0e659ea2.jar
