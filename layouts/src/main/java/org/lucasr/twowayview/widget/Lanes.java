@@ -73,6 +73,10 @@ class Lanes {
         mIsVertical = layout.isVertical();
 
         mLanes = new Rect[laneCount];
+
+
+        Log.i("Tag_lane","Lane count: "+laneCount);
+
         mSavedLanes = new Rect[laneCount];
         for (int i = 0; i < laneCount; i++) {
             mLanes[i] = new Rect();
@@ -183,7 +187,7 @@ class Lanes {
             }
         }
 
-        Log.d("Tag_L_Push","Left Lens push "+laneRect.left);
+        Log.d("Tag_L_Push","Left Lens push "+laneRect.left+" Right "+laneRect.right);
 
         invalidateEdges();
 
@@ -206,8 +210,9 @@ class Lanes {
             }
         }
 
+        getmLanes();
 
-        Log.d("Tag_L_POP","Left Lens pop "+laneRect.left);
+        Log.d("Tag_L_POP","Left Lens pop "+laneRect.left+" Right "+laneRect.right);
         invalidateEdges();
     }
 
@@ -351,5 +356,16 @@ class Lanes {
         }
 
         return mInnerEnd;
+    }
+
+    public Rect[] getmLanes() {
+
+        for (Rect rect : mLanes){
+            Log.d("TAG_LANE", " left: "+ rect.left + " right: " + rect.right);
+        }
+        Log.d("TAG_LANE", " End\n");
+
+
+        return mLanes;
     }
 }

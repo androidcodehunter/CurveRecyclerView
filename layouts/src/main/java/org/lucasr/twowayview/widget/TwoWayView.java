@@ -143,9 +143,9 @@ public class TwoWayView extends RecyclerView {
          int width = childItem.getMeasuredWidth();
          int height = childItem.getMeasuredHeight();
 */
-        android.graphics.Point controlPoint = new android.graphics.Point(getWidth()/2, 300);
-        android.graphics.Point endPoint = new android.graphics.Point(getWidth(), 0);
-        path.moveTo(0, 0);
+        android.graphics.Point controlPoint = new android.graphics.Point(getWidth()/2, 200);
+        android.graphics.Point endPoint = new android.graphics.Point(getWidth(), 100);
+        path.moveTo(0, 100);
         path.quadTo(controlPoint.x, controlPoint.y, endPoint.x, endPoint.y);
 
         canvas.drawPath(path, mPaint);

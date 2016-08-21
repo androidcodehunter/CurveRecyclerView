@@ -29,6 +29,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.lucasr.twowayview.widget.Lanes.LaneInfo;
@@ -42,7 +43,7 @@ public class ListLayoutManager extends BaseLayoutManager {
     private static final String LOGTAG = "ListLayoutManager";
     private Point mEndPoint;
     private Point mControlPoint;
-    private Point mStartPoint = new Point(0,0);
+    private Point mStartPoint = new Point(0,124);
     private int mWidth;
     private int childHalfPx;
 
@@ -72,8 +73,8 @@ public class ListLayoutManager extends BaseLayoutManager {
 
     private void init(Context context) {
         mWidth=getWidth();
-        mEndPoint = new Point(mWidth, 0);
-        mControlPoint = new Point(mWidth/2, 300);
+        mEndPoint = new Point(mWidth, 100);
+        mControlPoint = new Point(mWidth/2, 200);
         childHalfPx = (int) convertDpToPixel(48,context);
     }
 
@@ -111,8 +112,8 @@ public class ListLayoutManager extends BaseLayoutManager {
         init(mContext);
 
 
-        FrameLayout itemView = (FrameLayout) child;
-        TextView childItem = (TextView) itemView.getChildAt(0);
+        LinearLayout itemView = (LinearLayout) child;
+        TextView childItem = (TextView) itemView.getChildAt(1);
 
         Log.d("TAG_FRAM", "Item "+ childItem.getText() +" left2: " + mChildFrame.left + " top: " + mChildFrame.top + " right: " + mChildFrame.right + " bottom: " + mChildFrame.bottom);
 
@@ -145,6 +146,8 @@ public class ListLayoutManager extends BaseLayoutManager {
 
         layoutDecorated(child, mChildFrame.left, y - childItem.getMeasuredWidth()/2, mChildFrame.right,
                 mChildFrame.bottom - childItem.getMeasuredWidth()/2);
+
+
 
         final RecyclerView.LayoutParams lp = (RecyclerView.LayoutParams) child.getLayoutParams();
 

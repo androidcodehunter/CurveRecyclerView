@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 74,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endColumn": 75,
+                    "endOffset": 705
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 710,
+                    "endColumn": 71,
+                    "endOffset": 777
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 782,
+                    "endColumn": 65,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 58,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 58,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endColumn": 62,
+                    "endOffset": 965
+                },
+                "from": {
+                    "file": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/core/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 711,
+                        "endColumn": 62,
+                        "endOffset": 769
+                    }
+                }
+            }
+        ]
+    }
+]

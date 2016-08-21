@@ -34,6 +34,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,13 +48,14 @@ import org.lucasr.twowayview.ItemClickSupport.OnItemLongClickListener;
 import org.lucasr.twowayview.widget.DividerItemDecoration;
 import org.lucasr.twowayview.widget.TwoWayView;
 
+import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
+
 public class LayoutFragment extends Fragment {
 
 
-    private Point mStartPoint = new Point(0,0);
+    private Point mStartPoint = new Point(0,124);
     private Point mControlPoint;
     private Point mEndPoint;
-
 
     private static final String ARG_LAYOUT_ID = "layout_id";
 
@@ -83,15 +85,14 @@ public class LayoutFragment extends Fragment {
         super.onCreate(savedInstanceState);
         mLayoutId = getArguments().getInt(ARG_LAYOUT_ID);
 
-
         Display display = getActivity().getWindowManager().getDefaultDisplay();
         Point size = new Point();
         display.getSize(size);
         mWidth = size.x;
         int height = size.y;
 
-        mEndPoint = new Point(mWidth, 0);
-        mControlPoint = new Point(mWidth/2, 300);
+        mEndPoint = new Point(mWidth, 100);
+        mControlPoint = new Point(mWidth/2, 200);
     }
 
     @Override
@@ -114,6 +115,9 @@ public class LayoutFragment extends Fragment {
         mRecyclerView = (TwoWayView) view.findViewById(R.id.list);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLongClickable(true);
+
+
+        OverScrollDecoratorHelper.setUpOverScroll(mRecyclerView, OverScrollDecoratorHelper.ORIENTATION_HORIZONTAL);
 
         mPositionText = (TextView) view.getRootView().findViewById(R.id.position);
         mCountText = (TextView) view.getRootView().findViewById(R.id.count);
@@ -159,7 +163,7 @@ public class LayoutFragment extends Fragment {
 
                 for (int i = mRecyclerView.getFirstVisiblePosition(); i<= mRecyclerView.getLastVisiblePosition(); i++){
 
-                    FrameLayout view = (FrameLayout) recyclerView.getChildAt(i - mRecyclerView.getFirstVisiblePosition());
+                    LinearLayout view = (LinearLayout) recyclerView.getChildAt(i - mRecyclerView.getFirstVisiblePosition());
 
                     int x=view.getLeft(),y;
 
@@ -171,12 +175,12 @@ public class LayoutFragment extends Fragment {
                     Log.d("View",((TextView)view.findViewById(R.id.title)).getText().toString()+" Left : "+x + " width "+ mWidth + " valueOf Y: "+ y+" Px Half : "+childHalfPx +" width "+view.getMeasuredWidth());
 
 
-                    int half = view.getMeasuredWidth()/2;
+                    int half = view.findViewById(R.id.ivProduct).getMeasuredHeight()/2;
 
                     y = y - half;
 
-                    view.layout(x, y, x + view.getMeasuredWidth(), y + view.getMeasuredWidth());
-                 //   view.layout(x-childHalfPx/2, y-childHalfPx/2, x + childHalfPx/2, y + childHalfPx/2);
+                    view.layout(x, y, x + view.getMeasuredWidth(), y + view.getMeasuredHeight());
+                    // view.layout(x-childHalfPx/2, y-childHalfPx/2, x + childHalfPx/2, y + childHalfPx/2);
                     //y += 50;
                 }
 
@@ -196,14 +200,7 @@ public class LayoutFragment extends Fragment {
     double getY(Point startPoint, Point controlPoint, Point endPoint, double t, int extraSpace){
 
         double result;
-
-        //if (t>(mWidth/2)){
-            //t+=200;
-
-
         t = t / (double) (mWidth);
-
-
         result = Math.pow(1.0 - t, 2.0) * startPoint.y + 2.0 * (1.0-t)* t * controlPoint.y  + Math.pow(t, 2.0) * endPoint.y;
         return result;
     }

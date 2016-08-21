@@ -1,0 +1,7 @@
+#Sun Aug 21 15:42:32 BDT 2016
+base.0=/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fa455a3d0dc3b5653b6138e5b40b4e3cef771ec3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c33d3f038c049160eec1b74c8339f16da0651487/classes.dex
+base.1=/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c33d3f038c049160eec1b74c8339f16da0651487
+file.0=/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fa455a3d0dc3b5653b6138e5b40b4e3cef771ec3/classes.dex

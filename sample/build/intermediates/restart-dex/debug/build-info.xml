@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi,armeabi-v7a"
+    api-level="23"
+    density="560dpi"
+    format="8"
+    timestamp="16099488304473"
+    token="6494679430488740559"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="286" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="13" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="15818425798023"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/outputs/apk/sample-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="16099488304473"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

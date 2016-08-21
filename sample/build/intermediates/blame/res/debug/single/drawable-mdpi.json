@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/res/merged/debug/drawable-mdpi/ic_list.png",
+        "source": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/src/main/res/drawable-mdpi/ic_list.png"
+    },
+    {
+        "merged": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/res/merged/debug/drawable-mdpi/ic_staggered.png",
+        "source": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/src/main/res/drawable-mdpi/ic_staggered.png"
+    },
+    {
+        "merged": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/res/merged/debug/drawable-mdpi/ic_spannable.png",
+        "source": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/src/main/res/drawable-mdpi/ic_spannable.png"
+    },
+    {
+        "merged": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/res/merged/debug/drawable-mdpi/ic_grid.png",
+        "source": "/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/src/main/res/drawable-mdpi/ic_grid.png"
+    }
+]

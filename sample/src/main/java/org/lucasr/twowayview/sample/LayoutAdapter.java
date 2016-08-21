@@ -35,7 +35,7 @@ import java.util.List;
 import static android.support.v7.widget.RecyclerView.*;
 
 public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleViewHolder>{
-    private static final int COUNT = 100;
+    private static final int COUNT = 10;
 
     private final Context mContext;
     private final TwoWayView mRecyclerView;
@@ -82,7 +82,7 @@ public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleView
 
     @Override
     public void onBindViewHolder(SimpleViewHolder holder, int position) {
-        holder.title.setText(mItems.get(position).toString());
+        //holder.title.setText(mItems.get(position).toString());
 
         boolean isVertical = (mRecyclerView.getOrientation() == TwoWayLayoutManager.Orientation.VERTICAL);
         final View itemView = holder.itemView;

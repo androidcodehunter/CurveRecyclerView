@@ -2,116 +2,141 @@
 <items version="2" >
 
     <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
         revision="24.0.0"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-e0fcdaed1a490f3e450ebd8559d9656b0e659ea2.jar" />
+        sha1="a887b8a35ffb2929c3da924f2431e7f75f88b05c">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fa455a3d0dc3b5653b6138e5b40b4e3cef771ec3/classes.dex" />
     </item>
     <item
-        jar="/Users/androidcodehunter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-1a3fb2967ef6f06d866bb6a6279b94843fd786d1.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-295eed1c0e57e1e68d802355af28a1d932980f77.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
         revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-012cbfec800937fa6120dc78837f246bc73c1a01.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-02cc3e9a6445ae9e7dfc184e119a18a4a6ad371f.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/twoway-view/layouts/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6b775748b56a56264f4c18b31c495a5627ccf636">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-826314983dd5851719a5b169dd3f07744b8c094c.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/classes.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-62ce4056377734841bf51ea0d1e5055d0b04a884.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/twoway-view/layouts/unspecified/classes.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="bc824fb75d2ad16c7b97ec903775b79a7c96212f">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-ff9e8f28e8378d5aeb6d11f16c851695e333c5a4.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/twoway-view/core/unspecified/classes.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="2aec46b4a5617ed912be1fb9e3b764f120fe0799">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-624e88f159cd31c0de23fdfa77b613c66f24a3ef.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-2e123cf7b9efa6cff6e303b377b780c6d8c2e09f.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/classes.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-700be9da99f0929f79d74ed2afb2cc5fed576b5b.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/classes.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="787871951412550519b0222aba3c9df4cea49875">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-2f5ce185f5aa22c4512ab62ce5b0d3a1530c2b14.jar" />
-    </item>
-    <item
-        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/libs/internal_impl-24.1.1.jar"
-        jumboMode="false"
-        revision="24.0.0"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/internal_impl-24.1.1-39bd26593d4cd223964d89dd9d49654523197825.jar" />
+        sha1="a6b7d7aba1749ba29a7933c1bab5e6fd8ae83fe0">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c33d3f038c049160eec1b74c8339f16da0651487/classes.dex" />
     </item>
     <item
         jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/twoway-view/core/unspecified/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="7b77ece569ffe184ba62a88a67e0255d6adf9434">
         <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-20b6c79a77cee1d118b35de20dda520cb24de552.jar" />
     </item>
     <item
-        jar="/Users/androidcodehunter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
         revision="24.0.0"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/pre-dexed/debug/support-annotations-24.1.1-a841847f8001140eb26aefaea6d9067c437629f5.jar" />
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_954bee1b85525ed366c9afc46eea8d8d580c31fc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-2e123cf7b9efa6cff6e303b377b780c6d8c2e09f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_a00f2d81c8a8a07760cd4628e6bf710c1d87ade2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_2713aeee58ca2586db070b311856aad5ad3896df/classes.dex" />
+    </item>
+    <item
+        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/twoway-view/layouts/unspecified/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6b775748b56a56264f4c18b31c495a5627ccf636">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-826314983dd5851719a5b169dd3f07744b8c094c.jar" />
     </item>
     <item
         jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
         <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-2eff967a395f05e7486f8616b2723f1b0e514f69.jar" />
+    </item>
+    <item
+        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-295eed1c0e57e1e68d802355af28a1d932980f77.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_418ae8ca6ee4c6f5d2001747032d08e9107efb9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_9f8f919c69981db2d6653619aa631f9912ab4083/classes.dex" />
+    </item>
+    <item
+        jar="/Users/androidcodehunter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-1a3fb2967ef6f06d866bb6a6279b94843fd786d1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_a841847f8001140eb26aefaea6d9067c437629f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/CurveRecycler/twoway-view/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_ba466e4836befbf5a23664f6fe52b29a341c1b12/classes.dex" />
+    </item>
+    <item
+        jar="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/androidcodehunter/AndroidStudioProjects/twoway-view/sample/build/intermediates/pre-dexed/debug/classes-02cc3e9a6445ae9e7dfc184e119a18a4a6ad371f.jar" />
     </item>
 
 </items>
